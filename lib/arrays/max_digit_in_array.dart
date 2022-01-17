@@ -1,18 +1,17 @@
 import 'dart:io';
+import 'dart:math';
 
-void ReverseList() {
+void MaxDigitInArray() {
   var n = int.parse(stdin.readLineSync()!);
   var array = stdin
       .readLineSync()!
       .toString()
-      .split('')
+      .split(' ')
       .map((s) => int.parse(s))
       .toList();
-  var reversList = [];
   if (n == array.length) {
     if (1 <= n && n <= 35) {
-      reversList = List.from(array.reversed);
-      print(reversList);
+      print(array.reduce(max));
     } else {
       print('ERROR: 1 <= n && n <= 35');
     }

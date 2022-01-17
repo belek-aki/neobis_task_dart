@@ -1,10 +1,18 @@
-// import 'dart:io';
+import 'dart:io';
 
 void ArrayTask() {
-  // var n = int.parse(stdin.readLineSync()!);
-  // var array = int.parse(stdin.readLineSync()!);
-
-  var list = [1, 2, 3, 4, 5, 4, 5, 8, 9, 1, 4, 5];
-  var a = list.length;
-  print(a);
+  var n = int.parse(stdin.readLineSync()!);
+  var array = stdin
+      .readLineSync()!
+      .toString()
+      .split('')
+      .map((s) => int.parse(s))
+      .toList();
+  var res = 0;
+  if (n == array.length) {
+    res = array.length;
+  } else {
+    print('ERROR: n != array.length');
+  }
+  print(res);
 }

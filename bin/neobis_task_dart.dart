@@ -10,7 +10,9 @@
 // import 'package:neobis_task_dart/arrays/number_of_positive.dart';
 // import 'package:neobis_task_dart/arrays/reverse_list.dart';
 // import 'package:neobis_task_dart/for-loops/remainder.dart';
-import 'package:neobis_task_dart/for-loops/squares.dart';
+// import 'package:neobis_task_dart/for-loops/squares.dart';
+// import 'package:neobis_task_dart/arrays/max_digit_in_array.dart';
+import 'package:neobis_task_dart/arrays/sherenga.dart';
 
 void main() {
   // ArrayTask();
@@ -24,5 +26,7 @@ void main() {
   // EvenArrayNumber();
   // ReverseList();
   // Remainder();
-  Squares();
+  // Squares();
+  // MaxDigitInArray();
+  Sherenga();
 }
