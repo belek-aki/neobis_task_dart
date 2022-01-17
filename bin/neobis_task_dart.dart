@@ -12,7 +12,8 @@
 // import 'package:neobis_task_dart/for-loops/remainder.dart';
 // import 'package:neobis_task_dart/for-loops/squares.dart';
 // import 'package:neobis_task_dart/arrays/max_digit_in_array.dart';
-import 'package:neobis_task_dart/arrays/sherenga.dart';
+// import 'package:neobis_task_dart/arrays/sherenga.dart';
+import 'package:neobis_task_dart/for-loops/sum_of_one_hundred_numbers.dart';
 
 void main() {
   // ArrayTask();
@@ -28,5 +29,6 @@ void main() {
   // Remainder();
   // Squares();
   // MaxDigitInArray();
-  Sherenga();
+  // Sherenga();
+  SumTheOneHundredNumbers();
 }
